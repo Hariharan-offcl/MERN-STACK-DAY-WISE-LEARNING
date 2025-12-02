@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="form">
+             <h2><center>Job Application Form</center></h2>
+             <form action="" class="field">
+
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone" required><br><br>
+
+                <label for="position">Position Applied For:</label><br>
+                <input type="text" id="position" name="position" required><br><br>
+
+                <label for="checbox">Known Programming Languages:</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="python" name="languages" value="Python">
+                    <label for="python">Python</label><br>
+
+                    <input type="checkbox" id="java" name="languages" value="Java">
+                    <label for="java">Java</label><br>
+
+                    <input type="checkbox" id="javascript" name="languages" value="JavaScript">
+                    <label for="javascript">JavaScript</label><br>
+
+
+                    <input type="checkbox" id="cpp" name="languages" value="C++">
+                    <label for="cpp">C++</label><br>
+
+                    
+                </div>
+                         <label for="image">Professional Image</label>
+                    <input type="file" id="image" name="image" accept="image/*"><br><br>
+                <label for="resume">Upload Resume:</label><br>
+                <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required><br><br>
+
+                   <label for="date">Date of the Completion of Degree:</label><br>
+                     <input type="date" id="date" name="date"><br><br>
+                <input type="submit" value="Submit Application">
+             </form>
+        </div>
+    </div>
+
+    <div class="table">
+        <center><h2>Information</h2></center>
+        <table>
+
+            <tr>
+                <th>Eligible</th>
+                <th>Not Eligible</th>
+
+            </tr>
+            <tr>
+                <td>Applicants with relevant degree and experience.</td>
+                <td>Applicants without required qualifications.</td>
+        </table>
+    </div>
+</body>
+</html>

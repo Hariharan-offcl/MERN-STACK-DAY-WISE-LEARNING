@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #e0f7fa, #fce4ec);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 40px 0;
+}
+
+.card {
+    background: #ffffff;
+    width: 90%;
+    max-width: 450px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    padding: 25px 30px;
+}
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.field label {
+    font-weight: 600;
+    display: block;
+    color: #37474f;
+    margin-bottom: 5px;
+}
+
+.field input[type="text"],
+.field input[type="email"],
+.field input[type="tel"],
+.field input[type="date"],
+.field input[type="file"] {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1.5px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+
+.field input[type="text"]:focus,
+.field input[type="email"]:focus,
+.field input[type="tel"]:focus,
+.field input[type="date"]:focus,
+.field input[type="file"]:focus {
+    border-color: #2196f3;
+    box-shadow: 0 0 6px rgba(33, 150, 243, 0.3);
+}
+
+.checkbox-group {
+    margin: 8px 0 15px 0;
+    padding: 8px 10px;
+    background-color: #fafafa;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+.checkbox-group label {
+    margin-left: 6px;
+    font-size: 14px;
+    color: #333;
+}
+
+.checkbox-group input {
+    margin-right: 6px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #2196f3;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #1976d2;
+    box-shadow: 0 4px 10px rgba(25, 118, 210, 0.3);
+}
+
+.table {
+    background: #ffffff;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    padding: 25px 30px;
+}
+
+.table h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.table table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.table th, 
+.table td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    font-size: 15px;
+}
+
+.table th {
+    background-color: #2196f3;
+    color: white;
+    font-weight: 600;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table tr:hover {
+    background-color: #e3f2fd;
+    transition: 0.2s ease;
+}
+
+@media (max-width: 480px) {
+    .card, .table {
+        width: 95%;
+        padding: 20px;
+    }
+    input[type="submit"] {
+        font-size: 15px;
+    }
+    .table th, .table td {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
