@@ -31,11 +31,11 @@
 }
 
 .header {
-    background-color: #2196f3;
+    background-color: #92999e;
     color: white;
     text-align: center;
     padding: 40px 20px;
-    border-bottom: 5px solid #1976d2;
+    border-bottom: 5px solid #f1f8ff;
     position: relative;
 }
 
@@ -62,21 +62,21 @@
 
 .home-login-btn {
     display: inline-block;
-    background-color: #2196f3;
+    background-color: #63717c;
     color: white;
     text-decoration: none;
     font-weight: 600;
     padding: 12px 25px;
     border-radius: 8px;
-    box-shadow: 0 6px 15px rgba(33, 150, 243, 0.3);
+    box-shadow: 0 6px 15px rgba(235, 240, 245, 0.3);
     transition: all 0.3s ease;
     position: relative;
     top: 10px;
 }
 
 .home-login-btn:hover {
-    background-color: #1976d2;
-    box-shadow: 0 8px 20px rgba(25, 118, 210, 0.4);
+    background-color: #4d535a;
+    box-shadow: 0 8px 20px rgba(143, 152, 161, 0.4);
 }
 
 .footer {
@@ -141,13 +141,13 @@
 .field input[type="text"]:focus,
 .field input[type="email"]:focus,
 .field input[type="tel"]:focus {
-    border-color: #2196f3;
+    border-color: #61676b;
     box-shadow: 0 0 6px rgba(33, 150, 243, 0.3);
 }
 
 input[type="submit"] {
     width: 100%;
-    background-color: #2196f3;
+    background-color: #78858b;
     color: white;
     font-size: 16px;
     font-weight: 600;
@@ -160,7 +160,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #1976d2;
+    background-color: #3f4246;
     box-shadow: 0 4px 10px rgba(25, 118, 210, 0.3);
 }
 
@@ -168,7 +168,7 @@ input[type="submit"]:hover {
     display: inline-block;
     margin-top: 15px;
     font-size: 14px;
-    color: #21f3d7;
+    color: #020202;
     font-weight: 500;
     text-align: center;
     width: 100%;
